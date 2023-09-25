@@ -1,7 +1,7 @@
 {
 	"environment": {
-		"adapter": "node",
-		"proxy_streams": false
+		"adapter": "vercel",
+		"proxy_streams": true
 	},
 	"platform": {
 		"netlify": {
@@ -12,8 +12,8 @@
 			"precompress": false
 		},
 		"vercel": {
-			"edge": false,
-			"split": false
+			"edge": true,
+			"split": true
 		}
 	},
 	"port": 3000
